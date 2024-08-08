@@ -91,6 +91,9 @@ func TestDict(t *testing.T) {
 
 	dict.DecRef()
 
+	/* not available in python 3.12 so commenting
 	PyDict_ClearFreeList()
+
+	*/
 
 }

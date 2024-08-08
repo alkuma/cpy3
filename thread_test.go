@@ -12,7 +12,10 @@ func TestThreadInitialization(t *testing.T) {
 
 	assert.True(t, PyEval_ThreadsInitialized())
 
+	/* not available in python 3.12 so commenting
 	PyEval_ReInitThreads()
+
+	*/
 }
 
 func TestGIL(t *testing.T) {

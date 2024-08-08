@@ -63,6 +63,9 @@ func TestList(t *testing.T) {
 
 	assert.Equal(t, "world", PyUnicode_AsUTF8(world))
 
+	/* not available in python 3.12 so commenting
 	PyList_ClearFreeList()
+
+	*/
 
 }
