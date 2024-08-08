@@ -1,6 +1,6 @@
-module github.com/go-python/cpy3
+module github.com/alkuma/cpy3
 
-go 1.18
+go 1.22.4
 
 require github.com/stretchr/testify v1.2.2
 
